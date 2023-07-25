@@ -5,6 +5,7 @@ let enlaces = document.querySelectorAll('a')
 let tituloElemento = document.getElementById('titulo')
 let subtituloElemento = document.getElementById('subtitulo')
 let parrafoElemento = document.getElementById('parrafo')
+let precioElemento = document.getElementById('precio')
 console.log(enlaces)
 
 enlaces.forEach(function (enlace) {
@@ -21,6 +22,7 @@ enlaces.forEach(function (enlace) {
         tituloElemento.innerHTML = contenido.titulo
         subtituloElemento.innerHTML = contenido.subtitulo
         parrafoElemento.innerHTML = contenido.parrafo
+        precioElemento.innerHTML = contenido.precio
     });
 });
 
